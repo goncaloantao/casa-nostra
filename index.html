@@ -7,44 +7,37 @@
 
     <meta
         name="description"
-        content="Barbearia Prime - Cortes modernos, barba e cuidado masculino."
+        content="Casa Nostra - Restaurante italiano com cozinha autêntica, massas frescas e pizzas artesanais."
     >
 
-    <title>Barbearia Prime</title>
+    <title>Casa Nostra | Restaurante Italiano</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         MENU
-    ========================== -->
-
+    <!-- HEADER -->
     <header id="header">
 
         <a href="#inicio" class="logo">
-            BARBEARIA PRIME
+            CASA NOSTRA
+            <span>RISTORANTE ITALIANO</span>
         </a>
 
         <nav id="nav">
-
             <a href="#inicio">Início</a>
-            <a href="#servicos">Serviços</a>
-            <a href="#sobre">Sobre Nós</a>
+            <a href="#menu">Menu</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#reservar">Reservar</a>
             <a href="#contactos">Contactos</a>
-
         </nav>
 
-        <a href="#marcar" class="btn-marcar">
-            Marcar
+        <a href="#reservar" class="btn-header">
+            Reservar mesa
         </a>
 
-        <button
-            class="menu-mobile"
-            id="menu-mobile"
-            aria-label="Abrir menu"
-        >
+        <button id="menu-mobile" class="menu-mobile" aria-label="Abrir menu">
             ☰
         </button>
 
@@ -53,170 +46,201 @@
 
     <main>
 
-
-        <!-- =========================
-             HERO
-        ========================== -->
-
+        <!-- HERO -->
         <section id="inicio" class="hero">
+
+            <div class="hero-overlay"></div>
 
             <div class="hero-conteudo">
 
-                <p class="destaque">
-                    BARBEARIA • ESTILO • TRADIÇÃO
+                <p class="etiqueta">
+                    AUTÊNTICA COZINHA ITALIANA
                 </p>
 
                 <h1>
-                    O teu estilo.<br>
-                    A nossa precisão.
+                    Itália à mesa.<br>
+                    Em cada detalhe.
                 </h1>
 
-                <p class="descricao">
-                    Cortes modernos, barba e cuidado masculino
-                    num espaço pensado para ti.
+                <p class="hero-texto">
+                    Massas frescas, pizzas artesanais e sabores
+                    preparados com ingredientes selecionados.
                 </p>
 
                 <div class="hero-botoes">
 
-                    <a href="#marcar" class="btn-principal">
-                        Marcar agora
+                    <a href="#reservar" class="btn-principal">
+                        Reservar mesa
                     </a>
 
-                    <a href="#servicos" class="btn-secundario">
-                        Ver serviços
+                    <a href="#menu" class="btn-secundario">
+                        Ver menu
                     </a>
 
                 </div>
 
             </div>
 
-            <div class="scroll-indicator">
-                ↓
-            </div>
+        </section>
+
+
+        <!-- INTRO -->
+        <section class="intro">
+
+            <p>TRADIÇÃO • SABOR • PARTILHA</p>
+
+            <h2>
+                Uma experiência feita para ser saboreada.
+            </h2>
+
+            <span>
+                Receitas inspiradas na tradição italiana,
+                preparadas com tempo, cuidado e paixão.
+            </span>
 
         </section>
 
 
-        <!-- =========================
-             SERVIÇOS
-        ========================== -->
-
-        <section id="servicos" class="servicos">
+        <!-- MENU -->
+        <section id="menu" class="menu">
 
             <div class="titulo-secao">
 
-                <p>OS NOSSOS SERVIÇOS</p>
+                <p>O NOSSO MENU</p>
 
                 <h2>
-                    Escolhe o teu estilo
+                    Sabores da Casa
                 </h2>
 
                 <span>
-                    Qualidade, detalhe e atenção em cada serviço.
+                    Alguns dos pratos favoritos dos nossos clientes.
                 </span>
 
             </div>
 
 
-            <div class="servicos-grid">
+            <div class="menu-grid">
 
+                <article class="prato">
 
-                <article class="servico">
+                    <div class="prato-imagem prato-1"></div>
 
-                    <div class="icone-servico">
-                        ✂
-                    </div>
+                    <div class="prato-conteudo">
 
-                    <div class="servico-topo">
+                        <div class="prato-topo">
+                            <h3>Pizza Margherita</h3>
+                            <strong>12,50€</strong>
+                        </div>
 
-                        <h3>Corte</h3>
-
-                        <span>15€</span>
-
-                    </div>
-
-                    <p>
-                        Corte personalizado de acordo com o teu estilo,
-                        com acabamento profissional.
-                    </p>
-
-                    <div class="servico-final">
-
-                        <span class="tempo">
-                            30 min
-                        </span>
-
-                        <a href="#marcar">
-                            Marcar →
-                        </a>
+                        <p>
+                            Tomate San Marzano, mozzarella,
+                            manjericão fresco e azeite.
+                        </p>
 
                     </div>
 
                 </article>
 
 
-                <article class="servico">
+                <article class="prato">
 
-                    <div class="icone-servico">
-                        ◈
-                    </div>
+                    <div class="prato-imagem prato-2"></div>
 
-                    <div class="servico-topo">
+                    <div class="prato-conteudo">
 
-                        <h3>Barba</h3>
+                        <div class="prato-topo">
+                            <h3>Tagliatelle Carbonara</h3>
+                            <strong>14,90€</strong>
+                        </div>
 
-                        <span>10€</span>
-
-                    </div>
-
-                    <p>
-                        Aparar, definir e cuidar da barba para um
-                        acabamento limpo e cuidado.
-                    </p>
-
-                    <div class="servico-final">
-
-                        <span class="tempo">
-                            20 min
-                        </span>
-
-                        <a href="#marcar">
-                            Marcar →
-                        </a>
+                        <p>
+                            Massa fresca, guanciale, gema de ovo,
+                            pecorino e pimenta preta.
+                        </p>
 
                     </div>
 
                 </article>
 
 
-                <article class="servico">
+                <article class="prato">
 
-                    <div class="icone-servico">
-                        ✦
+                    <div class="prato-imagem prato-3"></div>
+
+                    <div class="prato-conteudo">
+
+                        <div class="prato-topo">
+                            <h3>Risotto ai Funghi</h3>
+                            <strong>15,50€</strong>
+                        </div>
+
+                        <p>
+                            Arroz cremoso, cogumelos,
+                            parmesão e ervas aromáticas.
+                        </p>
+
                     </div>
 
-                    <div class="servico-topo">
+                </article>
 
-                        <h3>Corte + Barba</h3>
 
-                        <span>22€</span>
+                <article class="prato">
+
+                    <div class="prato-imagem prato-4"></div>
+
+                    <div class="prato-conteudo">
+
+                        <div class="prato-topo">
+                            <h3>Lasagna della Casa</h3>
+                            <strong>14,50€</strong>
+                        </div>
+
+                        <p>
+                            Massa fresca, ragù, béchamel,
+                            tomate e parmesão gratinado.
+                        </p>
 
                     </div>
 
-                    <p>
-                        Serviço completo para renovar o corte e tratar
-                        da barba numa única marcação.
-                    </p>
+                </article>
 
-                    <div class="servico-final">
 
-                        <span class="tempo">
-                            50 min
-                        </span>
+                <article class="prato">
 
-                        <a href="#marcar">
-                            Marcar →
-                        </a>
+                    <div class="prato-imagem prato-5"></div>
+
+                    <div class="prato-conteudo">
+
+                        <div class="prato-topo">
+                            <h3>Tiramisù</h3>
+                            <strong>6,50€</strong>
+                        </div>
+
+                        <p>
+                            Mascarpone, café, cacau e
+                            biscoito embebido.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="prato">
+
+                    <div class="prato-imagem prato-6"></div>
+
+                    <div class="prato-conteudo">
+
+                        <div class="prato-topo">
+                            <h3>Panna Cotta</h3>
+                            <strong>6,00€</strong>
+                        </div>
+
+                        <p>
+                            Creme italiano com baunilha
+                            e frutos vermelhos.
+                        </p>
 
                     </div>
 
@@ -227,66 +251,55 @@
         </section>
 
 
-        <!-- =========================
-             SOBRE NÓS
-        ========================== -->
-
+        <!-- SOBRE -->
         <section id="sobre" class="sobre">
 
             <div class="sobre-imagem"></div>
 
-
             <div class="sobre-conteudo">
 
-                <p class="sobre-destaque">
-                    SOBRE NÓS
+                <p class="etiqueta">
+                    A NOSSA HISTÓRIA
                 </p>
 
                 <h2>
-                    Mais do que um corte.<br>
-                    Uma experiência.
+                    A tradição italiana,
+                    perto de ti.
                 </h2>
 
                 <p>
-                    Na Barbearia Prime acreditamos que cada corte
-                    deve refletir a personalidade de quem o usa.
+                    Na Casa Nostra acreditamos que uma boa refeição
+                    é muito mais do que aquilo que está no prato.
                 </p>
 
                 <p>
-                    Aliamos técnica, atenção ao detalhe e um ambiente
-                    descontraído para garantir que sais sempre
-                    satisfeito.
+                    É tempo partilhado, conversa, aromas e sabores.
+                    Inspiramo-nos nas receitas tradicionais italianas,
+                    combinando ingredientes de qualidade com uma
+                    abordagem simples e autêntica.
                 </p>
-
-                <p>
-                    Seja para um corte moderno, cuidar da barba
-                    ou simplesmente renovar o teu estilo,
-                    estamos aqui para encontrar aquilo que combina contigo.
-                </p>
-
 
                 <div class="sobre-dados">
 
                     <div>
-                        <strong>5+</strong>
+                        <strong>8+</strong>
                         <span>Anos de experiência</span>
                     </div>
 
                     <div>
-                        <strong>1000+</strong>
-                        <span>Clientes satisfeitos</span>
+                        <strong>25+</strong>
+                        <span>Pratos no menu</span>
                     </div>
 
                     <div>
-                        <strong>3</strong>
-                        <span>Serviços principais</span>
+                        <strong>4.9</strong>
+                        <span>Avaliação média</span>
                     </div>
 
                 </div>
 
-
-                <a href="#marcar" class="btn-sobre">
-                    Marcar agora
+                <a href="#reservar" class="btn-sobre">
+                    Reservar mesa
                 </a>
 
             </div>
@@ -294,68 +307,54 @@
         </section>
 
 
-        <!-- =========================
-             CTA
-        ========================== -->
+        <!-- FRASE -->
+        <section class="frase">
 
-        <section class="cta">
-
-            <div>
-
-                <p>
-                    ESTÁ NA HORA DE RENOVAR O VISUAL?
-                </p>
-
-                <h2>
-                    Reserva já o teu próximo corte.
-                </h2>
-
-            </div>
-
-            <a href="#marcar">
-                Fazer marcação
-            </a>
+            <p>
+                “A mesa é o lugar onde as melhores histórias começam.”
+            </p>
 
         </section>
 
 
-        <!-- =========================
-             MARCAÇÃO
-        ========================== -->
+        <!-- RESERVA -->
+        <section id="reservar" class="reservar">
 
-        <section id="marcar" class="marcacao">
-
-            <div class="marcacao-info">
+            <div class="reserva-info">
 
                 <p class="etiqueta">
-                    MARCAÇÃO
+                    RESERVAS
                 </p>
 
                 <h2>
-                    Marca o teu horário.
+                    A tua mesa está à espera.
                 </h2>
 
                 <p>
-                    Preenche os teus dados e envia-nos o pedido
-                    diretamente pelo WhatsApp.
+                    Preenche os dados e envia o pedido diretamente
+                    pelo WhatsApp.
                 </p>
 
-
-                <div class="vantagens">
+                <div class="horarios">
 
                     <div>
-                        <span>✓</span>
-                        Confirmação rápida
+                        <span>Terça — Quinta</span>
+                        <strong>12:00 — 23:00</strong>
                     </div>
 
                     <div>
-                        <span>✓</span>
-                        Escolhe o serviço
+                        <span>Sexta — Sábado</span>
+                        <strong>12:00 — 00:00</strong>
                     </div>
 
                     <div>
-                        <span>✓</span>
-                        Escolhe a data e hora
+                        <span>Domingo</span>
+                        <strong>12:00 — 22:30</strong>
+                    </div>
+
+                    <div>
+                        <span>Segunda</span>
+                        <strong>Encerrado</strong>
                     </div>
 
                 </div>
@@ -363,13 +362,11 @@
             </div>
 
 
-            <form id="form-marcacao" class="form-marcacao">
+            <form id="form-reserva" class="form-reserva">
 
                 <div class="campo">
 
-                    <label for="nome">
-                        Nome
-                    </label>
+                    <label for="nome">Nome</label>
 
                     <input
                         type="text"
@@ -383,43 +380,35 @@
 
                 <div class="campo">
 
-                    <label for="telefone">
-                        Telefone
-                    </label>
+                    <label for="telefone">Telefone</label>
 
                     <input
                         type="tel"
                         id="telefone"
-                        placeholder="926 022 274"
+                        placeholder="912 345 678"
                         required
                     >
 
                 </div>
 
 
-                <div class="campo campo-largo">
+                <div class="campo">
 
-                    <label for="servico">
-                        Serviço
-                    </label>
+                    <label for="pessoas">N.º de pessoas</label>
 
-                    <select id="servico" required>
+                    <select id="pessoas" required>
 
                         <option value="">
-                            Escolhe um serviço
+                            Seleciona
                         </option>
 
-                        <option value="Corte - 15€">
-                            Corte — 15€
-                        </option>
-
-                        <option value="Barba - 10€">
-                            Barba — 10€
-                        </option>
-
-                        <option value="Corte + Barba - 22€">
-                            Corte + Barba — 22€
-                        </option>
+                        <option>1 pessoa</option>
+                        <option>2 pessoas</option>
+                        <option>3 pessoas</option>
+                        <option>4 pessoas</option>
+                        <option>5 pessoas</option>
+                        <option>6 pessoas</option>
+                        <option>7+ pessoas</option>
 
                     </select>
 
@@ -428,9 +417,7 @@
 
                 <div class="campo">
 
-                    <label for="data">
-                        Data
-                    </label>
+                    <label for="data">Data</label>
 
                     <input
                         type="date"
@@ -443,9 +430,7 @@
 
                 <div class="campo">
 
-                    <label for="hora">
-                        Hora
-                    </label>
+                    <label for="hora">Hora</label>
 
                     <input
                         type="time"
@@ -458,12 +443,12 @@
 
                 <div class="campo campo-largo">
 
-                    <label for="mensagem">
+                    <label for="observacoes">
                         Observações
                     </label>
 
                     <textarea
-                        id="mensagem"
+                        id="observacoes"
                         rows="4"
                         placeholder="Alguma indicação especial? (opcional)"
                     ></textarea>
@@ -473,13 +458,13 @@
 
                 <button
                     type="submit"
-                    class="btn-enviar campo-largo"
+                    class="btn-reserva campo-largo"
                 >
-                    Enviar pedido pelo WhatsApp
+                    Pedir reserva pelo WhatsApp
                 </button>
 
-                <p class="nota-form campo-largo">
-                    A marcação fica confirmada depois da resposta da barbearia.
+                <p class="nota campo-largo">
+                    A reserva fica confirmada após resposta do restaurante.
                 </p>
 
             </form>
@@ -487,95 +472,57 @@
         </section>
 
 
-        <!-- =========================
-             CONTACTOS
-        ========================== -->
-
+        <!-- CONTACTOS -->
         <section id="contactos" class="contactos">
 
-            <div class="titulo-secao contactos-titulo">
+            <div class="titulo-secao">
 
-                <p>CONTACTOS</p>
+                <p>ENCONTRA-NOS</p>
 
                 <h2>
-                    Estamos à tua espera
+                    Vem visitar-nos
                 </h2>
-
-                <span>
-                    Passa por cá ou entra em contacto connosco.
-                </span>
 
             </div>
 
 
             <div class="contactos-grid">
 
+                <div class="contacto">
 
-                <div class="contacto-card">
+                    <span>📍</span>
 
-                    <div class="contacto-icone">
-                        📍
-                    </div>
-
-                    <h3>
-                        Morada
-                    </h3>
+                    <h3>Morada</h3>
 
                     <p>
-                        Rua Exemplo, 123<br>
+                        Rua da Itália, 25<br>
                         Lisboa
                     </p>
 
-                    <a
-                        href="https://www.google.com/maps"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Ver no mapa →
-                    </a>
+                </div>
+
+
+                <div class="contacto">
+
+                    <span>☎</span>
+
+                    <h3>Telefone</h3>
+
+                    <p>
+                        +351 912 345 678
+                    </p>
 
                 </div>
 
 
-                <div class="contacto-card">
+                <div class="contacto">
 
-                    <div class="contacto-icone">
-                        ☎
-                    </div>
+                    <span>✉</span>
 
-                    <h3>
-                        Contacto
-                    </h3>
+                    <h3>Email</h3>
 
                     <p>
-                        +351 926 022 274
-                    </p>
-
-                    <a href="tel:+351912345678">
-                        Ligar →
-                    </a>
-
-                </div>
-
-
-                <div class="contacto-card">
-
-                    <div class="contacto-icone">
-                        ◷
-                    </div>
-
-                    <h3>
-                        Horário
-                    </h3>
-
-                    <p>
-                        Segunda a Sexta<br>
-                        09:00 — 19:00
-                    </p>
-
-                    <p>
-                        Sábado<br>
-                        09:00 — 18:00
+                        reservas@casanostra.pt
                     </p>
 
                 </div>
@@ -584,65 +531,49 @@
 
         </section>
 
-
     </main>
 
 
-    <!-- =========================
-         WHATSAPP FLUTUANTE
-    ========================== -->
-
+    <!-- WHATSAPP -->
     <a
         href="#"
-        id="whatsapp-flutuante"
-        class="whatsapp-flutuante"
-        aria-label="Contactar por WhatsApp"
+        id="whatsapp"
+        class="whatsapp"
+        aria-label="WhatsApp"
     >
         ☎
     </a>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
+    <!-- FOOTER -->
     <footer>
 
-        <div class="footer-conteudo">
+        <div class="footer-topo">
 
             <div>
 
-                <div class="footer-logo">
-                    BARBEARIA PRIME
-                </div>
+                <h3>CASA NOSTRA</h3>
 
                 <p>
-                    Estilo, precisão e cuidado em cada detalhe.
+                    Ristorante Italiano
                 </p>
 
             </div>
 
-
             <div class="footer-links">
 
                 <a href="#inicio">Início</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#sobre">Sobre Nós</a>
-                <a href="#marcar">Marcar</a>
-                <a href="#contactos">Contactos</a>
+                <a href="#menu">Menu</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#reservar">Reservar</a>
 
             </div>
 
         </div>
 
-
         <div class="footer-bottom">
-
-            <p>
-                © <span id="ano"></span> Barbearia Prime.
-                Todos os direitos reservados.
-            </p>
-
+            © <span id="ano"></span> Casa Nostra.
+            Todos os direitos reservados.
         </div>
 
     </footer>
