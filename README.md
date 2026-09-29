@@ -4,7 +4,7 @@ Website moderno e responsivo desenvolvido para um restaurante italiano fictício
 
 ## 🌐 Demo
 
-https://casa-nostra-pt.netlify.app
+https://casa-ita-pt.netlify.app
 
 ## ✨ Funcionalidades
 
